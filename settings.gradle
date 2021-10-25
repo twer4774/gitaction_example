@@ -1,0 +1,3 @@
+rootProject.name = 'gitaction_example'
+include 'simple_gitaction'
+
