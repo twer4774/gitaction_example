@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: simpleJob
-        uses: twer4774/gitaction_example@main
+        uses: twer4774/gitaction_example/simple_gitaction@main
       - name: Gradle 권한설정
         run: chmod +x graldw
       - name: Gradle Build
