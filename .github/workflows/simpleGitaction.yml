@@ -9,6 +9,6 @@ jobs:
     steps:
  
       - name: Gradle 권한설정
-        run: chmod +x graldw
+        run: chmod +x graldew
       - name: Gradle Build
         run: ./gradlew build
