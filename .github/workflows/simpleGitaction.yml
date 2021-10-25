@@ -7,8 +7,5 @@ jobs:
     name: simpleGitactionJob
     runs-on: ubuntu-latest
     steps:
- 
-      - name: Gradle 권한설정
-        run: chmod +x gradlew
       - name: Gradle Build
         run: ./gradlew build
