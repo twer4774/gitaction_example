@@ -1,5 +1,5 @@
 name: 'simple gitaction'
-description: 'Simple gitaction'
+
 on: [push]
 
 jobs:
