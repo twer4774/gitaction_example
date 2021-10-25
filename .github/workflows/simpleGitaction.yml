@@ -1,0 +1,15 @@
+name: 'simple gitaction'
+description: 'Simple gitaction'
+on: [push]
+
+jobs:
+  build:
+    name: simpleGitactionJob
+    runs-on: ubuntu-latest
+    steps:
+      - name: simpleJob
+        uses: twer4774/gitaction_example@master
+      - name: Gradle 권한설정
+        run: chmod +x graldw
+      - name: Gradle Build
+        run: ./gradlew build
